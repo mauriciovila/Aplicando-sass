@@ -1,0 +1,45 @@
+.navbar {
+	.logo {
+	width: 180px;
+	}
+}
+.logo {
+	transition: all 1s;
+}
+@media (min-width: 1024px) {
+.logo:hover {
+	transform: translateY(-20px);
+}
+.nav-item{
+	transition: all 1s;
+}
+.nav-item:hover {
+	transform: translateY(-5px);
+}
+.textoForm:hover {
+	font-size: 25px;
+	color: black;
+	font-weight: bold
+}
+.rrss a {
+	transition: all 1s;
+}
+.rrss a:hover{
+	transform: translateY(-20px);
+	font-size: 50px;
+}
+}
+ul li {
+	list-style-type: none;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	padding: 3px 29px;
+	margin: 14px;
+}
+ul li a {
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+    color: #4C443C;
+    font-size: 30px;
+	cursor: pointer;
+}
